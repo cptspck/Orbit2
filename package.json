@@ -1,0 +1,38 @@
+{
+    "author": "Keegan Lanzillotta",
+    "dependencies": {},
+    "keywords": [],
+    "name": "orbit-2.0",
+    "pebble": {
+        "displayName": "Orbit 2.0 - TJ Schedule",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "JSReady",
+            "Start1",
+            "Start2",
+            "Start3",
+            "End1",
+            "End2",
+            "End3",
+            "Name1",
+            "Name2",
+            "Name3"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "00b22af2-e374-43cc-a5f6-985337386d28",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.0.0"
+}
