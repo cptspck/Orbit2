@@ -38,7 +38,7 @@ static void draw_arc(GContext *ctx, int *start_degrees, int *end_degrees, int *r
   		};
 		graphics_context_set_stroke_color(ctx, COLOR_FALLBACK(*color, GColorWhite));
 		graphics_draw_line(ctx, real_center, end_point);
-		if(i == end*10) {
+		if(i >= (end - 1)*10) {
 			graphics_context_set_stroke_color(ctx, COLOR_FALLBACK(*color, GColorBlack));
 			graphics_draw_line(ctx, real_center, end_point);
 		}

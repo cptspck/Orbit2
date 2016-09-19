@@ -17,6 +17,8 @@ function getSchedule() {
 	var tempDict3 = [];
 
 	var d = new Date();
+	//d.setDate(19);
+	//d.setHours(11);
 	var dHour = new Date(d);
 	var dNextHour = new Date(d);
 	dNextHour.setHours(dNextHour.getHours() + 1);
